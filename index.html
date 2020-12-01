@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <!--
+  Code based on the templates from:
+
+  1) https://startbootstrap.com/themes/resume/
+  2) https://adminlte.io/themes/AdminLTE/index2.html
+
+  -->
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <meta name='description' content='Website of the special session on "Representation Learning for
+	Audio, Speech, and Music Processing", at the International Joint Conference on Neural Networks (IJCNN) 20201'>
+  <meta name='author' content='K. Drossos'>
+
+  <title>Special Session | IJCNN2021</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <!-- Custom fonts for this template -->
+  <link href='https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i' rel='stylesheet'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <!-- Custom styles for this template -->
+  <link href='css/AdminLTE.css' rel='stylesheet'>
+  <link href='css/resume.css' rel='stylesheet'>
+  <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+</head>
+
+<body id='page-top'>
+  <nav class='navbar navbar-expand-lg navbar-dark bg-primary fixed-top' id='sideNav'>
+    <a class='navbar-brand js-scroll-trigger' href='#page-top'>
+		<span class='d-block d-lg-none'>Special Session on <br>RLASMP</span>
+      <span class='d-none d-lg-block'>
+		  Special Session on <br>RLASMP<br>
+        IJCNN 2021
+      </span>
+    </a>
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+    <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+      <ul class='navbar-nav'>
+        <li class='nav-item'>
+          <a class='nav-link js-scroll-trigger' href='#about'>About</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link js-scroll-trigger' href='#scopeandtopics'>Scope and topics</a>
+        </li>
+        <li class='nav-item'>
+          <a class='nav-link js-scroll-trigger' href='#organizing-committee'>Organizing committee</a>
+        </li>
+        <!-- li class='nav-item'>
+          <a class='nav-link js-scroll-trigger' href='#statistics'>Statistics</a>
+        </li -->
+      </ul>
+    </div>
+  </nav>
+  <!-------------------------------------------------------------------------
+  -- About
+  -------------------------------------------------------------------------->
+  <div class='container-fluid p-0'>
+    <section class='resume-section p-3 p-lg-5 d-flex align-items-center' id='about'>
+      <div class='w-100'>
+        <h1 class='mb-4'>Representation Learning for 
+          <span class='text-primary'>Audio, Speech, and Music Processing</span>
+        </h1>
+        <div class='subheading mb-5'>
+          Special Session at the
+          <a href='https://attend.ieee.org/mmsp-2020' target='_blank'>International Joint Conference on Neural Networks (IJCNN), 2021</a>
+        </div>
+        <div class='subheading mb-2'>
+          <h3 class='mb-3'>Important dates</h3>
+        </div>
+        <ul class='fa-ul mb-5'>
+          <li>
+            <i class='fa-li fa fa-calendar-check'></i>
+			<h4 class='mb-1'>Paper submission: <span class='text-primary'>15th of January, 2021</span></h4></li>
+          <li>
+            <i class='fa-li fa fa-calendar-check'></i>
+            <h4 class='mb-1'>Notification of Paper Acceptance: <span class='text-primary'>15th of March, 2020</span></h4></li>
+          <li>
+            <i class='fa-li fa fa-calendar-check'></i>
+            <h4 class='mb-1'>Camera-Ready Paper Due: <span class='text-primary'>30th of March, 2021</span></h4></li>
+          <li>
+            <i class='fa-li fa fa-calendar-check'></i>
+            <h4 class='mb-1'>Conference: <span class='text-primary'>18th - 22nd of July, 2021</span></h4></li>
+        </ul>
+        <br>
+        <!-- h3 class='mb-0'><a href="https://www.conftool.org/mmsp2020/" target='_blank'>Click here to submit your paper!</a></h3-->
+      </div>
+    </section>
+    <hr class='m-0'>
+    <!-------------------------------------------------------------------------
+    -- Scope and topics
+    -------------------------------------------------------------------------->
+    <section class='resume-section p-3 p-lg-5 d-flex align-items-center' id='scopeandtopics'>
+      <div class='w-100'>
+        <h2 class='mb-4'>Scope and Topics</h2>
+        <div class='resume-item d-flex flex-column flex-md-row justify-content-between mb-5'>
+          <div class='resume-content'>
+			<p>
+			In the last decade, deep learning has revolutionized the research fields of <span class="text-primary">audio</span> and <span class="text-primary">speech signal processing</span>,
+			<span class="text-primary">acoustic scene analysis</span>, and <span class="text-primary">music information retrieval</span>. In these research fields, methods relying on <span class="text-primary">deep</span>
+			<span class="text-primary">learning</span> have achieved remarkable performance in various applications and tasks, surpassing legacy methods that
+			rely on the independent usage of signal processing operations and machine learning algorithms. The huge success of
+			deep learning methods relies on their ability to <span class="text-primary">learn representations from sound signals</span> that are useful for
+			various downstream tasks. These representations encapsulate the underlying structure or features of the sound
+			signals, or the latent variables that describe the underlying statistics of the respective signals.
+			</p>
+
+			<p>
+			Despite this success, <span class="text-primary">learning representations of audio with deep models remains challenging</span>. For example, the
+			diversity of acoustic noise, the multiplicity of recording devices (e.g., high-end microphones vs. smartphones),
+			and the source variability challenge machine learning methods when they are used in realistic environments. In audio
+			event detection, which has recently become a vigorous research field, systems for the automatic detection of multiple
+			overlapping events are still far from reaching human performance. Another major challenge is the design of robust
+			speech processing systems. Speech enhancement technologies have significantly improved in the past years, notably
+			thanks to deep learning methods. However, there is still a large performance gap between controlled environments and
+			real-world situations. As a final example, in the music information retrieval field, modeling the high-level semantics
+			based on local and long-term relations in music signals is still a core challenge. More generally, self-supervised
+			approaches that can leverage a large amount of unlabeled data are very promising for learning models that can serve
+			as a powerful base for many applications and tasks. Thus, <span class="text-primary">it is of great interest</span> for the scientific community to find
+			<span class="text-primary">new methods for representing audio signals</span> using hierarchical models, such as deep neural networks. This will enable
+			novel learning methods to leverage the large amount of information that audio, speech, and music signals convey.
+			</p>
+
+			<p>
+			The aim of this session is to establish a venue where engineers, scientists, and practitioners from both academia
+			and industry, can <span class="text-primary">present and discuss cutting-edge results in representation learning in audio, speech, and music
+			signal processing</span>. Driven by the constantly increasing popularity of audio, speech, and music representation learning,
+			the organizing committee of this session is motivated to build, in the long-term, a solid reference within the computational
+			intelligence community for the digital audio field
+
+			</p>
+
+			<p>
+			The scope of this proposed special session is representation learning, focused on audio, speech, and music.
+			Representation learning is one of the main aspects of neural networks. Thus, the scope of this proposes special
+			session is well aligned with the scope of the IJCNN, as the current special session is focused on a core aspect
+			of neural networks, which is the representation learning. 
+			</p>
+
+            <p>The topics of the special session include (but are not limited to):</p>
+            <ul class='fa-ul mb-5'>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Audio, speech, and music signal generative models and methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Single and multi-channel methods for separation, enhancement, and denoising</span></h5>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+              <h5 class='mb-1'><span class="text-primary">Spatial analysis, modification, and synthesis for augmented and virtual reality</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Detection, localization, and tracking of audio sources/events</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Style transfer, voice conversion, digital effects, and personalization</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Adversarial attacks and real/synthetic discrimination methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Information retrieval and classification methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Multi- and inter-modal models and methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Self-supervised/metric learning methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Domain adaptation, transfer learning, knowledge distilation, and K-shot approaches</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Differentiable signal processing based methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Privacy preserving methods</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Interpretability and explainability in deep models for audio</span></h5>
+              </li>
+              <li>
+                <i class='fa-li fa fa-map-marker-alt'></i>
+                <h5 class='mb-1'><span class="text-primary">Context and structure-aware approaches</span></h5>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class='m-0'>
+    <!-------------------------------------------------------------------------
+    -- Organizing committee
+    -------------------------------------------------------------------------->
+    <section class='resume-section p-3 p-lg-5 d-flex align-items-center' id='organizing-committee'>
+      <div class='w-100'>
+        <h2 class='mb-4'>Organizing Committee</h2>
+        <ul class='list-inline dev-icons'>
+          <li>
+            <i class='fa-li fa fa-map-marker-alt'></i>
+            <h4 class='mb-1'>
+              <span class="text-primary">
+                Konstantinos Drossos</span>,
+              Audio Research Group, Tampere University, Finland
+            </h4>
+          </li>
+          <li>
+            <i class='fa-li fa fa-map-marker-alt'></i>
+            <h4 class='mb-1'>
+              <span class="text-primary">
+                Xavier Favory</span>,
+              Music Technology Group, Universitat Pompeu Fabra, Spain
+            </h4>
+          <li>
+            <i class='fa-li fa fa-map-marker-alt'></i>
+            <h4 class='mb-1'>
+              <span class="text-primary">
+                Paul Magron</span>,
+              Institut de Recherche en Informatique de Toulouse, France
+            </h4>
+          </li>
+          <li>
+            <i class='fa-li fa fa-map-marker-alt'></i>
+            <h4 class='mb-1'>
+              <span class="text-primary">
+                Stylianos I. Mimilakis</span>,
+              Fraunhofer Institute for Digital Media Technology, Germany
+            </h4>
+          </li>
+          <li>
+            <i class='fa-li fa fa-map-marker-alt'></i>
+            <h4 class='mb-1'>
+              <span class="text-primary">
+                Emanuele Principi</span>,
+              Università Politecnica delle Marche, Italy
+            </h4>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class='m-0'>
+    <!-------------------------------------------------------------------------
+    -- Organizing committee
+    -------------------------------------------------------------------------->
+    <!--section class='resume-section p-3 p-lg-5 d-flex align-items-center' id='statistics'>
+      <div class='w-100'>
+        <h2 class='mb-4'>Statistics</h2>
+        <div class="row mb-5">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-resume-text-normal"><ion-icon name="person"></ion-icon></span>
+              <div class="info-box-content">
+                <span class="info-box-text text-primary">Unique authors</span>
+                <span class="info-box-number text-primary">40</span>
+              </div-->
+              <!-- /.info-box-content -->
+            <!--/div-->
+            <!-- /.info-box -->
+          <!--/div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-resume-text-normal"><ion-icon name="home"></ion-icon></span>
+              <div class="info-box-content">
+                <span class="info-box-text text-primary">Unique Institutions</span>
+                <span class="info-box-number text-primary">17</span>
+              </div-->
+              <!-- /.info-box-content -->
+            <!--/div-->
+            <!-- /.info-box -->
+          <!--/div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-resume-text-normal"><ion-icon name="globe"></ion-icon></span>
+              <div class="info-box-content">
+                <span class="info-box-text text-primary">Different countries</span>
+                <span class="info-box-number text-primary">11</span>
+              </div-->
+              <!-- /.info-box-content -->
+            <!--/div-->
+            <!-- /.info-box -->
+          <!--/div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-resume-text-normal"><ion-icon name="clipboard"></ion-icon></span>
+              <div class="info-box-content">
+                <span class="info-box-text text-primary">Total submissions</span>
+                <span class="info-box-number text-primary">13</span>
+              </div-->
+              <!-- /.info-box-content -->
+            <!--/div-->
+            <!-- /.info-box -->
+          <!--/div>
+          <div class="col-md-3">
+            <div class="chart-responsive">
+              <canvas id="pieChart"></canvas>
+            </div-->
+            <!-- ./chart-responsive -->
+          <!--/div-->
+          <!-- /.col -->
+          <!--div class="col-md-5">
+            <ul class="chart-legend clearfix">
+              <li><i class="fa fa-circle text-primary" aria-hidden="true"></i> Having the session as primary track</li>
+              <li><i class="fa fa-circle"></i> Having the session as secondary track</li>
+            </ul>
+          </div-->
+          <!-- /.col -->
+        <!--/div>
+      </div>
+    </section -->
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- script src="js/Chart.js"></script>
+  <script src="js/charts.js"></script -->
+
+  <!-- Plugin JavaScript -->
+  <script src='js/jquery-easing/jquery.easing.min.js'></script>
+
+  <!-- Custom scripts for this template -->
+  <script src='js/resume.min.js'></script>
+  <script src='js/adminlte.js'></script>
+</body>
+</html>
